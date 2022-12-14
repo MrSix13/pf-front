@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+
+.container{
+    display: flex;
+    background-color: red;
+    width: 90vw;
+    height: 73vh;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.sidebar{
+    background-color: green;
+    width: 40vw ;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sidebar_info{
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sidebar_pages{
+    flex: 2;
+    border: 1px solid black;
+}
+
+.info{
+    background-color: aqua;
+    flex: 2;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #f6f6f6;
+}
+  
+.backgroundImage {
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+  
+.profilePhoto {
+  position: relative;
+  top: -60px;
+  width: 106;
+  height: 106;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: solid 2px #fff;
+  overflow: hidden;
+}
+  
+.imgFit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+.profileData {
+  position: relative;
+  top: -55px;
+  margin: 0 auto;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatarButton {
+  padding: 0 !important;
+  position: relative ;
+}
+
+.avatarButton:hover {
+  z-index: 9999 !important;
+}
+
+.avatarIcon {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 9999 !important;
+  transition: .3s ease !important;
+  opacity: 0;
+  padding: 1.3rem;
+  background-color: rgba(1, 1, 1, 0.3);
+}
+
+.avatarIcon:hover {
+  opacity: 1;
+}
